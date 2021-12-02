@@ -42,7 +42,7 @@ $ npm install
 ``` bash
 $ npm run dev
 ```
-3. The application is available on [localhost:3000](https://localhost:3000)
+3. The application is available on [192.168.0.103:3000/](http://192.168.0.103:3000/)
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
