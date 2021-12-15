@@ -104,10 +104,11 @@ export default {
     }
   }
 
-  &-full-width{
+  &-full-width {
     grid-column: auto/span 2;
-    .card-item__button{
+    .card-item__button {
       justify-self: center;
+
       @media screen and (max-width: 1024px) {
         justify-self: left;
       }
@@ -125,24 +126,27 @@ export default {
 
   @media screen and (max-width: 1024px) {
     padding: 60px;
-    &-bottom{
+
+    &-bottom {
       padding-bottom: 0;
     }
   }
 
   @media screen and (max-width: 580px) {
     padding: 32px;
-    &-bottom{
+
+    &-bottom {
       padding-bottom: 0;
     }
   }
   &__lottie {
     margin-bottom: 60px;
     grid-area: lottie;
+
     @media screen and (max-width: 580px) {
       margin-bottom: 40px;
     }
-    &-bottom{
+    &-bottom {
       margin: 0 auto;
 
       @media screen and (max-width: 343px) {
@@ -165,35 +169,35 @@ export default {
     }
   }
 
-  &__button{
+  &__button {
     grid-area: button;
     align-self: end;
   }
 
   &__content {
     grid-area: content;
-    @include font('Inter', 40px, 700);
-    line-height: 51px;
+    @include font('Inter', 35px, 700);
+    line-height: 45px;
     letter-spacing: -1.3%;
     word-break: break-word;
     max-width: 1080px;
-    &-bottom{
+    &-bottom {
       margin-top: 40px;
-      font-size: 56px;
-      line-height: 67px;
+      font-size: 35px;
+      line-height: 45px;
     }
     @media screen and (max-width: 1260px) {
       font-size: 35px;
       line-height: 45px;
-      &-bottom{
-        font-size: 40px;
-        line-height: 51px;
+      &-bottom {
+        font-size: 35px;
+        line-height: 45px;
       }
     }
     @media screen and (max-width: 1024px) {
       font-size: 30px;
       line-height: 37px;
-      &-bottom{
+      &-bottom {
         margin-top: 0;
         font-size: 30px;
         line-height: 37px;
